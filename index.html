@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="JavaScript Prog 3">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Telem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תכנות 3 - JavaScript</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    
+</head>
+
+<body>
+<div class="container">
+    <!-- סרגל ניווט -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <div class="container-fluid">
+    
+            <a class="navbar-brand" href="#">SysAid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">דף הבית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">אודות החברה</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">הלקוחות שלנו</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">המלצות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">צור קשר</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+<div>
+    <img src="img/sysaid_noBG.png" height="150" width="420"/> 
+</div>
+       
+        <h2> הפתרון שלך להדרכה</h2>
+    </div>
+    
+<div class="info-bur">
+    
+    <div class="search-container mb-3">
+        <input type="text" id="searchInput" placeholder="חפש נושא...">
+        <button id="searchButton" class="btn btn-primary" onclick="searchCards()">חפש</button>
+    </div>
+
+    <div class="items-container" id="itemsContainer">
+        <!-- כרטיסיות לדוגמה -->
+    </div>
+    
+</div>  
+    
+</div>
+</body>
+
+</html>
